@@ -1,0 +1,35 @@
+/*Splash*/
+
+.splash {
+    height: 500px;
+    position: relative;
+    background-position: bottom right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*Footer*/
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+.container ul li {
+    flex: 0 0 33.333%;
+    font-size: 30px;
+  
+}
